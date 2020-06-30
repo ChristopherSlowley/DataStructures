@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.datastructures.gui.MainPanel">
+  <grid id="27dc6" binding="mainPanel_pnl" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="751" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-11552846"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="609cc" binding="TextDisplayScroller_scr">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f2018" class="javax.swing.JTextArea" binding="TextDisplayArea_txa">
+            <constraints/>
+            <properties>
+              <background color="-5591120"/>
+              <editable value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="18ae9" binding="SouthButtonPanel_pnl" layout-manager="BorderLayout" hgap="5" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <grid id="28f3a" binding="LeftSide_SouthButton_pnl" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="bevel-lowered"/>
+            <children>
+              <hspacer id="2cfcf">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="95541">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="261ac" class="javax.swing.JButton" binding="ShowLeftSubTree_btn">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Show Left Sub Tree"/>
+                </properties>
+              </component>
+              <component id="d49cb" class="javax.swing.JButton" binding="ShowTree_btn">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Show Full Tree"/>
+                </properties>
+              </component>
+              <component id="a09d3" class="javax.swing.JButton" binding="LoadTree_btn">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Load Tree"/>
+                </properties>
+              </component>
+              <component id="e7bd0" class="javax.swing.JButton" binding="ShowRightSubTree_btn">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Show Right Sub Tree"/>
+                </properties>
+              </component>
+              <component id="2e4b" class="javax.swing.JButton" binding="Inorder_btn">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Inoder Expression"/>
+                </properties>
+              </component>
+              <component id="ceea" class="javax.swing.JButton" binding="Preorder_btn">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Preorder Expression"/>
+                </properties>
+              </component>
+              <component id="ee00c" class="javax.swing.JButton" binding="PostOrder_btn">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Postorder Expression"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="23817" binding="RightSide_SouthButton_pnl" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="bevel-lowered"/>
+            <children>
+              <hspacer id="ebf3c">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="232f1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="40cbe" class="javax.swing.JButton" binding="HashSet_btn">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="HashSet Example"/>
+                </properties>
+              </component>
+              <component id="b65fe" class="javax.swing.JButton" binding="TreeSetExample_btn">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="TreeSet Example"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2cd5e" binding="NorthButton_pnl" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <hspacer id="88449">
+                <constraints>
+                  <grid row="0" column="2" row-span="9" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="4a145">
+                <constraints>
+                  <grid row="1" column="0" row-span="8" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="38b87" class="javax.swing.JButton" binding="TreeMapExample_btn">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="TreeMap Example"/>
+                </properties>
+              </component>
+              <component id="b51f" class="javax.swing.JButton" binding="HashMapExample_btn">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="HashMap Example"/>
+                </properties>
+              </component>
+              <vspacer id="5a6fe">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="e6d2c" class="javax.swing.JButton" binding="WordIndexBuilder_btn">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Word Index Builder"/>
+                </properties>
+              </component>
+              <component id="6211a" class="javax.swing.JButton" binding="PalindromeFinder_btn">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Palindrome Finder"/>
+                </properties>
+              </component>
+              <component id="b061b" class="javax.swing.JButton" binding="FindGCD_btn">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Find GCD"/>
+                </properties>
+              </component>
+              <component id="d10c4" class="javax.swing.JButton" binding="FindSmallestMissingInt_btn">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Find Smallest Missing Number"/>
+                </properties>
+              </component>
+              <component id="e4321" class="javax.swing.JButton" binding="TestContainer_btn">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Test Container"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
